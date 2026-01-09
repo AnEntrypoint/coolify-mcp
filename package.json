@@ -1,0 +1,27 @@
+{
+  "name": "coolify-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Coolify CLI - list projects, resources, and retrieve deployment/app logs",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "coolify-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "coolify",
+    "mcp",
+    "deployment",
+    "logs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2"
+  }
+}
